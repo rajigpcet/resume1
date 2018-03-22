@@ -1,0 +1,126 @@
+.body{
+  background: #ddd;
+}
+td{
+  padding:1%;
+}
+table{
+  width:95%;
+}
+tr:nth-child(even){
+  background: #ddd;
+}
+h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width:200px;
+  height:auto;
+  display:block;
+
+  margin-left:auto;
+  margin-right:auto;
+}
+.img-circle{
+  border-radius: 50%;
+  border:2px solid #000;
+}
+.flex-parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.profile{
+  width: 30%;
+  padding: 2%;
+  margin: 1%;
+  background: #FFC0CB;
+  height: 50%;
+  border: 2px solid #000;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px #000;
+
+}
+.content{
+  width: 70%;
+  padding:2%;
+  margin: 1%;
+  background: #E0FFFF;
+  border: 2px solid #000;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px #000;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .profile{
+    width: 95%;
+    padding: 2%;
+    margin: 1%;
+    background: #FFC0CB;
+    border: 2px solid #fff;
+  }
+  .content{
+    width: 95%;
+    padding:2%;
+    margin: 1%;
+    background: #E0FFFF;
+    border: 2px solid #000;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px)
+{
+  .flex-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  .profile{
+    width: 95%;
+    padding: 2%;
+    margin: 1%;
+    background: #FFC0CB;
+    border: 2px solid #fff;
+  }
+  .content{
+    width: 95%;
+    padding:2%;
+    margin: 1%;
+    background: #E0FFFF;
+    border: 2px solid #000;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px)
+{
+  .flex-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  .profile{
+    width: 95%;
+    padding: 2%;
+    margin: 1%;
+    background: #fff;
+    border: 2px solid #000;
+  }
+  .content{
+    width: 95%;
+    padding:2%;
+    margin: 1%;
+    background: #fff;
+    border: 2px solid #000;
+  }
+}

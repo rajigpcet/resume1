@@ -1,0 +1,50 @@
+{
+  "career":{
+  "info": "an object-oriented computer programming language commonly used to create interactive effects within web browsers."
+},
+"education":[
+  {
+    "degree":"s.s.c",
+    "school":"kvr em high school",
+    "data":["2013","93%"]
+  },
+  {
+    "degree":"intermediate",
+    "school":"narayana junior college",
+    "data":["2013-15","90%"]
+
+  },
+  {
+  "degree":"B.tech(C.S.E)",
+  "school":"GPCET",
+  "data":["2015-19","85%"]
+}
+
+],
+"skills":[
+  {
+    "name":"Languages",
+    "info":["R","c#","java","Python","C++","C","Php"]
+  },
+  {
+    "name":"oerating sysytem",
+    "info":["win-10","Fedora","redHat","ubuntu"]
+  },
+  {
+    "name":"Data Bases",
+    "info":["MySql","mongoDB","oracle","PDO"]
+  },
+  {
+    "name":"Web Technologies",
+    "info":["HTML","javascript","Css"]
+  },
+  {
+    "name":"FrameWorks",
+    "info":[".Net","Bootstrap","CodeIgniter"]
+  },
+  {
+    "name":"Libraries",
+    "info":["JQuery"]
+  }
+]
+}
